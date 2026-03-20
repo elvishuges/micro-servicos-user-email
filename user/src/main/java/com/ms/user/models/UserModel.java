@@ -1,4 +1,4 @@
-package com.ms.email.models;
+package com.ms.user.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

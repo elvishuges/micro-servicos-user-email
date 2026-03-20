@@ -1,9 +1,9 @@
-package com.ms.email.dtos;
+package com.ms.user.dtos;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 
 public record UserRecordDto(
-    @NotBlank String username,
+    @NotBlank String name,
     @NotBlank @Email String email
 ) {}
